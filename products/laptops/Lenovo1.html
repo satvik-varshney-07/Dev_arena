@@ -208,9 +208,18 @@
 <body>
 
 
-    <div class="navbar">
-        <a href="file:///C:/Users/rites/Desktop/viteee%20Bhopal/Online%20Courses%20Material/dev/laptop.html" id="home" style="text-align: center; background-color: coral;">Home</a>
-        <a href="#"  style="text-align: right;color: blue; background-color: coral;">FAQ</a>
+   <div class="navbar">
+        <a href="../../index.html" id="home" style="text-align: center; background-color: coral;">Home</a>
+        <select name="Category" id="cat" onchange="javascript:location.href=this.value">
+            <option value="#" style="text-align: center;">---choose---</option>
+            <!-- <option value="Mobile">Mobile Phones</option> -->
+            <option value="../televisions/televisions.html">Televisions</option>
+            <option value="../laptops/laptop.html">Laptops</option>
+            <option value="../clothes/clothing.html">Clothing</option>
+
+        </select>
+
+        <a href="../../faq.html" style="text-align: center; background-color: coral;">FAQ</a>
 
     </div>
 
